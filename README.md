@@ -56,17 +56,23 @@ public class Course{}
 2使用GUI窗体及其组件设计窗体界面
 
 登录
+
 public  class LoginWindow extends JFrame{
+
 	//标签
 	private JLabel lable1;
 	private JLabel lable2;
+	
 	//文本框
 	private JTextField text1;
 	private JTextField text2;
+	
 	//按钮
 	private JButton bt1;
-	private JButton bt2;  
+	private JButton bt2; 
+	
 	//构造函数
+	
   添加事件
   private void addListener()
 	{
